@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset="UTF-8">
+      <title>Form</title>
+      <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="./forum-css/forum-style.css">
+      </head>
+   <body>
+      <div id="container">
+      <form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="First Name">Name:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+    </div>
+    <div>
+    Birthday (date and time):
+    <input type="datetime-local" name="bdaytime"></div>
+    <div>
+        <label for="Password">password:</label>
+        <input type="passwword" id="password" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" />
+    </div>
+    <div>
+        <label for="Telephone">Telephone:</label>
+        <input type="Telephone" id="telephone" />
+    </div>
+    div>
+        <label for="Passport Number">Passport Number:</label>
+        <input type="text" id="Text" />
+    </div>
+     <div>
+        <label for="website">website:</label>
+        <input type="text" id="Website" />
+    </div>
+     <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+</form>
+   </body>
+
+</html>
